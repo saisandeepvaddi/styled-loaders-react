@@ -1,6 +1,7 @@
 {
   "extends": "flying-rocket",
   "rules": {
-    "react/require-default-props": 0
+    "react/require-default-props": 0,
+    "no-unused-vars": ["error", { "varsIgnorePattern": "React" }]
   }
 }

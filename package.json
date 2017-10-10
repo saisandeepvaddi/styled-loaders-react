@@ -3,11 +3,19 @@
   "version": "1.0.0",
   "description": "React port of https://github.com/SaraVieira/styled-loaders",
   "main": "src/index.js",
+  "files": [
+    "lib",
+    "Readme.md",
+    "package.json",
+    "yarn.lock"
+  ],
   "scripts": {
     "start": "styleguidist server",
     "build": "styleguidist build",
     "lint:css": "stylelint './src/**/*.js'",
-    "compile": "rm -rf lib/ && babel -d lib/ src/"
+    "webpack:build": "webpack --config ./webpack.config.js",
+    "compile": "rm -rf lib/ && npm run webpack:build",
+    "compile:babel": "rm -rf lib/ && babel -d lib/ src/"
   },
   "repository": "git@github.com:saisandeepvaddi/styled-loaders-react.git",
   "author": "Sai Sandeep Vaddi <saisandeepvaddi@gmail.com>",
@@ -31,6 +39,7 @@
     "stylelint-config-standard": "^17.0.0",
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-processor-styled-components": "^1.0.0",
+    "uglifyjs-webpack-plugin": "^1.0.0-beta.3",
     "webpack": "^3.6.0"
   }
 }
