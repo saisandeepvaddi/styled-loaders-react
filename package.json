@@ -1,0 +1,36 @@
+{
+  "name": "styled-loaders-react",
+  "version": "1.0.0",
+  "description": "React port of https://github.com/SaraVieira/styled-loaders",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "styleguidist server",
+    "build": "styleguidist build",
+    "lint:css": "stylelint './src/**/*.js'",
+    "compile": "rm -rf lib/ && babel -d lib/ src/"
+  },
+  "repository": "git@github.com:saisandeepvaddi/styled-loaders-react.git",
+  "author": "Sai Sandeep Vaddi <saisandeepvaddi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "styled-components": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "eslint": "^4.8.0",
+    "eslint-config-flying-rocket": "^1.1.1",
+    "npm-run-all": "^4.1.1",
+    "react-styleguidist": "^6.0.29",
+    "stylelint-config-standard": "^17.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.0.0",
+    "webpack": "^3.6.0"
+  }
+}
