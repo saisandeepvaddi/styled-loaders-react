@@ -3,7 +3,7 @@ Loaders for React built with Styled Components.
 
 # Credits
 
-This is React clone of @SaraVieira 's amazing [styled-loaders](https://github.com/SaraVieira/styled-loaders) which provides loaders for [Preact](https://preactjs.com/).
+This is React clone of [SaraVieira](https://github.com/SaraVieira) 's amazing [styled-loaders](https://github.com/SaraVieira/styled-loaders) which provides loaders for [Preact](https://preactjs.com/).
 
 Huge thanks for all the hard work and letting me port it for React users.
 
