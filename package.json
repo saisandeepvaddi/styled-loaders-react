@@ -2,20 +2,13 @@
   "name": "styled-loaders-react",
   "version": "1.0.0",
   "description": "React port of https://github.com/SaraVieira/styled-loaders",
-  "main": "src/index.js",
-  "files": [
-    "lib",
-    "Readme.md",
-    "package.json",
-    "yarn.lock"
-  ],
+  "main": "lib/index.js",
+  "files": ["lib", "Readme.md", "package.json", "yarn.lock"],
   "scripts": {
     "start": "styleguidist server",
     "build": "styleguidist build",
     "lint:css": "stylelint './src/**/*.js'",
-    "webpack:build": "webpack --config ./webpack.config.js",
-    "compile": "rm -rf lib/ && npm run webpack:build",
-    "compile:babel": "rm -rf lib/ && babel -d lib/ src/"
+    "compile": "rm -rf lib/ && babel -d lib/ src/"
   },
   "repository": "git@github.com:saisandeepvaddi/styled-loaders-react.git",
   "author": "Sai Sandeep Vaddi <saisandeepvaddi@gmail.com>",
@@ -29,9 +22,12 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-loader": "^7.1.2",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
+    "babel-preset-react-app": "^3.0.3",
     "babel-preset-stage-1": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
     "eslint": "^4.8.0",
     "eslint-config-flying-rocket": "^1.1.1",
     "npm-run-all": "^4.1.1",

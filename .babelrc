@@ -1,6 +1,6 @@
 {
   "presets": [
-    "stage-1",
+    "stage-3",
     [
       "env",
       {
@@ -8,7 +8,7 @@
           "browsers": ["last 2 versions", "safari >= 7"]
         }
       }
-    ],
-    "react"
-  ]
+    ]
+  ],
+  "plugins": ["transform-react-jsx"]
 }
