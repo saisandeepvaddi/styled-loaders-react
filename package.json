@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "React port of https://github.com/SaraVieira/styled-loaders",
   "main": "lib/index.js",
-  "files": ["lib", "Readme.md", "package.json"],
+  "files": ["lib", "README.md", "package.json"],
   "scripts": {
     "start": "styleguidist server",
     "build": "styleguidist build",

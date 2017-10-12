@@ -1,4 +1,9 @@
 # styled-loaders-react
+
+[![Build Status](https://travis-ci.org/saisandeepvaddi/styled-loaders-react.svg?branch=master)](https://travis-ci.org/saisandeepvaddi/styled-loaders-react)
+[![npm version](https://badge.fury.io/js/styled-loaders-react.svg)](https://badge.fury.io/js/styled-loaders-react)
+
+
 Loaders for React built with Styled Components.
 
 # Credits
@@ -11,6 +16,13 @@ Any new loaders that will be added in that original repository will be cloned he
 
 ## Usage
 
+```shell
+npm install styled-loaders-react
+
+or
+
+yarn add styled-loaders-react
+```
 
 ```js
 import React from 'react'
