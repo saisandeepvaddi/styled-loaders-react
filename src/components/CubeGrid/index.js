@@ -20,15 +20,15 @@ const CubeGrid = ({ color, size }) => {
         animation: ${grid} 1.3s infinite ease-in-out;
     `
 
-    const Cube1 = Cube.extend`animation-delay: 0.2s;`
-    const Cube2 = Cube.extend`animation-delay: 0.3s;`
-    const Cube3 = Cube.extend`animation-delay: 0.4s;`
-    const Cube4 = Cube.extend`animation-delay: 0.1s;`
-    const Cube5 = Cube.extend`animation-delay: 0.2s;`
-    const Cube6 = Cube.extend`animation-delay: 0.3s;`
-    const Cube7 = Cube.extend`animation-delay: 0s;`
-    const Cube8 = Cube.extend`animation-delay: 0.1s;`
-    const Cube9 = Cube.extend`animation-delay: 0.2s;`
+    const Cube1 = styled(Cube)`animation-delay: 0.2s;`
+    const Cube2 = styled(Cube)`animation-delay: 0.3s;`
+    const Cube3 = styled(Cube)`animation-delay: 0.4s;`
+    const Cube4 = styled(Cube)`animation-delay: 0.1s;`
+    const Cube5 = styled(Cube)`animation-delay: 0.2s;`
+    const Cube6 = styled(Cube)`animation-delay: 0.3s;`
+    const Cube7 = styled(Cube)`animation-delay: 0s;`
+    const Cube8 = styled(Cube)`animation-delay: 0.1s;`
+    const Cube9 = styled(Cube)`animation-delay: 0.2s;`
 
     return (
         <Spinner size={size}>

@@ -26,7 +26,7 @@ const Pulsate = ({ color, duration, size }) => {
         props.duration ? props.duration : '2.0s'};
     `
 
-    const Bounce2 = DefaultBounce.extend`animation-delay: -1s;`
+    const Bounce2 = styled(DefaultBounce)`animation-delay: -1s;`
 
     return (
         <Spinner size={size}>

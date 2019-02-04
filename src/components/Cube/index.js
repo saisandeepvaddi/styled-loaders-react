@@ -24,7 +24,7 @@ const Cube = ({ color, duration, size, cubeSize }) => {
         props.duration ? props.duration : '1.8s'};
     `
 
-    const StyledCube = DefaultCube.extend`animation-delay: -0.9s;`
+    const StyledCube = styled(DefaultCube)`animation-delay: -0.9s;`
 
     return (
         <Spinner size={size}>

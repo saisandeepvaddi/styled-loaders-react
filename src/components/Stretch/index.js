@@ -24,16 +24,16 @@ const Stretch = ({ color, duration, size }) => {
         animation-duration: ${durationTime(duration)}s;
     `
 
-    const Rect2 = DefaultRect.extend`
+    const Rect2 = styled(DefaultRect)`
         animation-delay: -${durationTime(duration) - 0.1}s;
     `
-    const Rect3 = DefaultRect.extend`
+    const Rect3 = styled(DefaultRect)`
         animation-delay: -${durationTime(duration) - 0.2}s;
     `
-    const Rect4 = DefaultRect.extend`
+    const Rect4 = styled(DefaultRect)`
         animation-delay: -${durationTime(duration) - 0.3}s;
     `
-    const Rect5 = DefaultRect.extend`
+    const Rect5 = styled(DefaultRect)`
         animation-delay: -${durationTime(duration) - 0.4}s;
     `
 
