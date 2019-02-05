@@ -8,7 +8,8 @@
     "start": "styleguidist server",
     "build": "styleguidist build",
     "compile": "rm -rf lib/ && babel -d lib/ src/",
-    "prepublish": "yarn compile"
+    "prepublish": "yarn compile",
+    "test": ""
   },
   "repository": "git@github.com:saisandeepvaddi/styled-loaders-react.git",
   "author": "Sai Sandeep Vaddi <saisandeepvaddi@gmail.com>",
