@@ -31,67 +31,67 @@ const Circular = ({ color, size }) => {
         }
     `
 
-    const Circle2 = Circle.extend`
+    const Circle2 = styled(Circle)`
         transform: rotate(30deg);
         &::before {
             animation-delay: -1.1s;
         }
     `
-    const Circle3 = Circle.extend`
+    const Circle3 = styled(Circle)`
         transform: rotate(60deg);
         &::before {
             animation-delay: -1s;
         }
     `
-    const Circle4 = Circle.extend`
+    const Circle4 = styled(Circle)`
         transform: rotate(90deg);
         &::before {
             animation-delay: -0.9s;
         }
     `
-    const Circle5 = Circle.extend`
+    const Circle5 = styled(Circle)`
         transform: rotate(120deg);
         &::before {
             animation-delay: -0.8s;
         }
     `
-    const Circle6 = Circle.extend`
+    const Circle6 = styled(Circle)`
         transform: rotate(150deg);
         &::before {
             animation-delay: -0.7s;
         }
     `
-    const Circle7 = Circle.extend`
+    const Circle7 = styled(Circle)`
         transform: rotate(180deg);
         &::before {
             animation-delay: -0.6s;
         }
     `
-    const Circle8 = Circle.extend`
+    const Circle8 = styled(Circle)`
         transform: rotate(210deg);
         &::before {
             animation-delay: -0.5s;
         }
     `
-    const Circle9 = Circle.extend`
+    const Circle9 = styled(Circle)`
         transform: rotate(240deg);
         &::before {
             animation-delay: -0.4s;
         }
     `
-    const Circle10 = Circle.extend`
+    const Circle10 = styled(Circle)`
         transform: rotate(270deg);
         &::before {
             animation-delay: -0.3s;
         }
     `
-    const Circle11 = Circle.extend`
+    const Circle11 = styled(Circle)`
         transform: rotate(300deg);
         &::before {
             animation-delay: -0.2s;
         }
     `
-    const Circle12 = Circle.extend`
+    const Circle12 = styled(Circle)`
         transform: rotate(330deg);
         &::before {
             animation-delay: -0.1s;

@@ -29,7 +29,7 @@ const RotateScale = ({ color, duration, size }) => {
         props.duration ? props.duration : '2s'};
     `
 
-    const Cube = DefaultCube.extend`
+    const Cube = styled(DefaultCube)`
         top: auto;
         bottom: 0;
         animation-delay: -1s;
