@@ -1,6 +1,6 @@
 {
   "name": "styled-loaders-react",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "React port of https://github.com/SaraVieira/styled-loaders",
   "main": "lib/index.js",
   "files": [
