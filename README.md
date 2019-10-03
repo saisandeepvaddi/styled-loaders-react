@@ -55,6 +55,14 @@ const Page = ({ loading }) =>
 
 ### Loaders
 
+* Bar
+![Bar](https://media.giphy.com/media/dYmMD0y5lk7Qvo94tl/giphy.gif)
+    * Props
+        * bgBar - Background of the bar default is #efefef
+        * color - Color of the bar default is #333
+        * duration - Animation duration default is 0.5s
+
+
 * Block
 ![Block](https://media.giphy.com/media/l378dJlRt7fvGHyfK/giphy.gif)
     * Props
